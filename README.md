@@ -10,16 +10,33 @@
 
 > [!NOTE]
 > 
-> It will scan all *.dumps in the main directory and convert them to *.nfc files for Flipper Zero.
+> It will scan all *.dump files in the main directory where the script is (no subfolders, keeps it simple) and convert them to *.nfc files for Flipper Zero.
 > 
 > The file structure was taken from [FlipperSkylanders](https://github.com/sealldeveloper/FlipperSkylanders/tree/main).
+
+### Example:
+
+```
+Filetype: Flipper NFC device
+Version: 3
+Device type: Mifare Classic
+UID: 34 3B 43 79
+ATQA: 00 04
+SAK: 08
+Mifare Classic type: 1K
+Data format version: 2
+Block 0: 34 3B 43 79 35 81 01 0F C4 33 00 00 00 00 00 12
+Block 1: CA 00 00 00 95 30 0E 34 B5 34 00 00 00 00 83 DF
+Block 2: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 3: 4B 0B 20 10 7C CB FF 07 80 69 00 00 00 00 00 00
+...
+```
 
 ## SkyUID_Duplicate_Checker.py
 
 > [!NOTE]
 > 
 > It will scan all dumps in the main directory, including those in subfolders, and generate a list of dumps with duplicate UIDs.
-
 
 ### Example:
 
