@@ -6,6 +6,14 @@
 > Ensure you have Python installed beforehand.
 
 
+## Skylanders_Dump_to_NFC_Converter.py
+
+> [!NOTE]
+> 
+> It will scan all *.dumps in the main directory and convert them to *.nfc files for Flipper Zero.
+> 
+> The file structure was taken from [FlipperSkylanders](https://github.com/sealldeveloper/FlipperSkylanders/tree/main).
+
 ## SkyUID_Duplicate_Checker.py
 
 > [!NOTE]
